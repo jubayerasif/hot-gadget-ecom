@@ -15,7 +15,8 @@ body
     margin-top: 15px;
     background-color: #fff;
 }
-.nav-item{
+.nav-item
+{
     padding-left: 35px;
     font-size: 15px;
     opacity: 80%;
@@ -24,7 +25,8 @@ body
 .nav-item:hover{
     opacity: 100%;
 }
-.container-fluid > img{
+.container-fluid > img
+{
     width: 12%;
     padding-top: 20px;
 }
@@ -83,9 +85,6 @@ section > nav
     padding-top: 5px;
     background-color: rgb(247, 247, 247);
 }
-#backpack {
-    padding-bottom: 125px;
-}
 .card
 {
     transition: box-shadow .3s;
@@ -135,13 +134,24 @@ section > nav
     text-align: center;
     margin-bottom: 10px;
 }
-.card-text{
+.card-text
+{
     opacity: 50%;
     margin-bottom: 50px;
 }
+#shoes > .row > .col > .card >img{
+    width: 75%;
+    margin-left: 25px;
+}
+
 #backpack
 {
     padding-bottom: 125px;
 }
+
+
+
+
+
 /* Thanks for watching */
 /* ##/11/2022 */
