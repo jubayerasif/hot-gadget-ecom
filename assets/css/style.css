@@ -10,6 +10,24 @@ body
 {
     font-family: 'Poppins', sans-serif;
 }
+.navbar
+{
+    margin-top: 15px;
+    background-color: #fff;
+}
+.nav-item{
+    padding-left: 35px;
+    font-size: 15px;
+    opacity: 80%;
+    font-weight: 500;
+}
+.nav-item:hover{
+    opacity: 100%;
+}
+.container-fluid > img{
+    width: 12%;
+    padding-top: 20px;
+}
 
 
 
