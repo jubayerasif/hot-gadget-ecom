@@ -139,17 +139,20 @@ section > nav
     opacity: 50%;
     margin-bottom: 50px;
 }
-#shoes > .row > .col > .card >img{
+#phone > .row > .col > .card >img
+{
     width: 75%;
     margin-left: 25px;
 }
-
-#backpack
+#laptop
 {
     padding-bottom: 125px;
 }
-
-
+.col-md-1 > h5
+{
+    margin-top: 75px; 
+    margin-bottom: 35px;
+}
 
 
 
