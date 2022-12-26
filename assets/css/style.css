@@ -81,11 +81,15 @@ section > nav
     height: 620px;
     margin-bottom: 75px;
 }
+.cat{
+    height: 450px;
+    margin-bottom: 75px;
+}
 .products .cat{
     padding-top: 5px;
     background-color: rgb(249, 249, 249);
 }
-.card
+.products > .container > #phone > .row > .row > .col > .card, .products > .container > #laptop > .row > .row > .col > .card 
 {
     transition: box-shadow .3s;
     -webkit-transition: box-shadow .3s;
@@ -169,13 +173,16 @@ section > nav
 
 }
 .cat > .row > .col-md-3 > .card:hover{
-    margin-top: 15%;
+    /* margin-top: 15%;
     box-shadow: 0 0 11px rgba(33,33,33,.2);
-    margin-bottom: 250px;
+    margin-bottom: 250px; */
     
 }
-.cat > .row > .col >.cat-card{
+.cat > .row > .col-md-6 > .row > .col-md-6  > .category-item{
+    height:25%;
 }
-
+.foot-text{
+    margin-top: 30%;
+}
 /* Thanks for watching */
 /* ##/11/2022 */
