@@ -117,6 +117,10 @@ section > nav
 {
     margin-top: 95px;
 }
+.card > .img-fluid
+{
+    margin-top: 0;
+}
 .card-title
 {
     text-align: center;
@@ -127,7 +131,6 @@ section > nav
     opacity: 50%;
     margin-bottom: 50px;
 }
-
 .card-body > .btn
 {
     padding: 12px 28px;
@@ -148,30 +151,25 @@ section > nav
     margin-top: 25px; 
     margin-bottom: 35px;
 }
-#phone > .row > .col > .card >img
+#phone > .row > .col > .card > img
 {
     width: 75%;
     margin-left: 25px;
-}
-#laptop
-{
-    padding-bottom: 125px;
 }
 .category-item 
 {
     padding:  20px 20px;
 }
-.categories-border {
+.categories-border 
+{
     margin-top: 15px; 
     margin-bottom: 45px; 
     text-align: center;
-
 }  
-.card-img-top{
-
-}
 .foot-text{
-    margin-top: 20%;
+    margin-top: 10%;
+    opacity: 75%;
 }
+
 /* Thanks for watching */
-/* ##/11/2022 */
+/* 26/12/2022 */
