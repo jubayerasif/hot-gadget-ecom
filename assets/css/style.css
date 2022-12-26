@@ -81,11 +81,15 @@ section > nav
     height: 620px;
     margin-bottom: 75px;
 }
-.products {
-    padding-top: 5px;
-    background-color: rgb(247, 247, 247);
+.cat{
+    height: 450px;
+    margin-bottom: 75px;
 }
-.card
+.products .cat{
+    padding-top: 5px;
+    background-color: rgb(249, 249, 249);
+}
+.products > .container > #phone > .row > .row > .col > .card, .products > .container > #laptop > .row > .row > .col > .card 
 {
     transition: box-shadow .3s;
     -webkit-transition: box-shadow .3s;
@@ -139,6 +143,11 @@ section > nav
     opacity: 50%;
     margin-bottom: 50px;
 }
+.col-md-1 > h5
+{
+    margin-top: 75px; 
+    margin-bottom: 35px;
+}
 #phone > .row > .col > .card >img
 {
     width: 75%;
@@ -148,13 +157,32 @@ section > nav
 {
     padding-bottom: 125px;
 }
-.col-md-1 > h5
+.cat > .row > .col-md-3 > .card
 {
-    margin-top: 75px; 
-    margin-bottom: 35px;
+    transition: box-shadow .3s;
+    -webkit-transition: box-shadow .3s;
+    -moz-transition: box-shadow .3s;
+    -ms-transition: box-shadow .3s;
+    -o-transition: box-shadow .3s;
+    border-radius:10px;
+    width: 125px;
+    height: 145px;
+    margin: 15px;
+    border: 0;
+    padding: 12px 15px;
+
 }
-
-
-
+.cat > .row > .col-md-3 > .card:hover{
+    /* margin-top: 15%;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    margin-bottom: 250px; */
+    
+}
+.cat > .row > .col-md-6 > .row > .col-md-6  > .category-item{
+    height:25%;
+}
+.foot-text{
+    margin-top: 30%;
+}
 /* Thanks for watching */
 /* ##/11/2022 */
