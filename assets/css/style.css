@@ -86,7 +86,6 @@ section > nav
 .cat
 {
     height: 450px;
-    margin-bottom: 75px;
 }
 .products .cat
 {
@@ -158,15 +157,19 @@ section > nav
 {
     padding-bottom: 125px;
 }
-.category-item {
+.category-item 
+{
     padding:  20px 20px;
 }
 .categories-border {
-    border-bottom: 10px solid  #FFBB24;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}  
+    margin-top: 15px; 
+    margin-bottom: 45px; 
+    text-align: center;
 
+}  
+.card-img-top{
+
+}
 .foot-text{
     margin-top: 20%;
 }
